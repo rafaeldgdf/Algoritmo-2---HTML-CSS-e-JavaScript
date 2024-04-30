@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Macaquil - Início</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styleHome.css">
+  <style>
+    .social-links img {
+      width: 30px;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo-container img">
+      <img src="img/macaco.png" alt="Logo Macaco">
+      <h1><p style="color: #fffafa;">MACAQUIL</p></h1>
+      <img src="img/cara.png" alt="Logo Cara">
+    </div>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="home.html">Início</a></li>
+      <li><a href="index.html">Loja</a></li>
+      <li><a href="contato.html">Contato</a></li>
+      <li><a href="carrinho.html">Carrinho</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="inicio">
+      <h2>Bem-vindo à Macaquil!</h2>
+      <p>Somos uma loja especializada em macacos. Aqui você compra um amigo personalizável!</p>
+      <section class="container">
+        <video src="img/inicio.mp4" controls width="320" height="240"></video>
+      </section>
+    </section>
+
+    <section id="comentarios">
+      <h4>Deixe seu comentário</h4>
+      <form class="formulario-comentario" action="processa_comentario.php" method="post"> 
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" required> <br>
+          <label for="comentario">Comentário:</label>
+          <textarea id="comentario" name="comentario" rows="5" cols="30" required></textarea> <br>
+          <button type="submit">Enviar Comentário</button>
+      </form>
+      <h3>Avaliação dos clientes </h3>
+      <!-- Comentário de Ana Maria Braga -->
+      <div class="comentario-centralizado">
+          <div class="comentario-fake">
+              <div class="comentario-fake-imagem">
+                  <img src="img/ana.png" alt="Imagem de Ana Maria Braga" class="imagem">
+              </div>
+              <div class="comentario-fake-texto">
+                  <p class="nome">Ana Maria Braga</p>
+                  <p class="comentario">Adorei meu macaco! Ele é super fofo e personalizado do jeito que eu queria. O atendimento da loja também foi ótimo, recomendo para todos!</p>
+              </div>
+          </div>
+      </div>
+    </section>
+  
+  
+
+  </main>
+<footer>
+    <ul class="footer-links">
+      <li><a href="terms.html">Termos de Serviço</a></li>
+      <li><a href="privacy.html">Política de Privacidade</a></li>
+    </ul>
+    <ul class="social-links">
+      <li><a href="#"><img src="img/facebook2.png" alt="Facebook"></a></li>
+      <li><a href="#"><img src="img/twitterx.png" alt="Twitter"></a></li>
+      <li><a href="#"><img src="img/insss.png" alt="Instagram"></a></li>
+    </ul>
+    <p>&copy; 2024 - Macaquil</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,44 @@
+
+#produtos,
+#carrinho{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 2%;
+    display: flex;
+
+}
+
+#carrinho{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 2%;
+    display: block;
+
+}
+
+.produto-single{
+    width: 33.3%; 
+    padding: 0 20px;
+}
+
+.centralizar {
+    text-align: center;
+}
+
+.miniatura {
+    width: 75px; /* Defina a largura desejada */
+    height: 75px; /* A altura será ajustada automaticamente de acordo com a proporção original da imagem */
+}
+
+.produto-single img {
+    width: 300px; /* Defina a largura desejada */
+    height: 300px; /* A altura será ajustada automaticamente de acordo com a proporção original da imagem */
+}
+
+.produto-info {
+    text-align: center; /* Centraliza o texto */
+}
+
+.produto-texto {
+    display: inline-block; /* Garante que a div ocupe apenas o espaço necessário */
+}

@@ -1,0 +1,54 @@
+/* Estilo para centralizar os elementos */
+.centralizar {
+    text-align: center;
+}
+
+/* Estilo para os produtos no carrinho */
+.produto {
+    display: inline-block; /* Para que os produtos fiquem lado a lado */
+    margin: 0 10px; /* Espaçamento entre os produtos */
+    vertical-align: top; /* Alinhar os produtos ao topo */
+    text-align: left; /* Alinhar o texto à esquerda */
+    width: 200px; /* Definir uma largura fixa para os produtos */
+}
+
+.produto img {
+    max-width: 100px; /* Definir a largura máxima da imagem */
+    height: 100px; /* Manter a proporção da imagem */
+    display: block; /* Garantir que a imagem não afete outros elementos */
+    margin: 0 auto; /* Centralizar a imagem horizontalmente */
+}
+
+
+.imagem-produto-carrinho {
+    max-width: 100px; /* Defina a largura máxima desejada */
+    height: 100 /* Manter a proporção da imagem */
+}
+
+/* Estilo para destacar o valor total da compra */
+.destaque {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Estilo para o botão "Pagar" */
+#botao-pagar {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block; /* Torna o botão um elemento de bloco */
+    margin: 0 auto;
+}
+
+#botao-pagar:hover {
+    background-color: #cbf047;
+}
+
+.destaque {
+    font-weight: bold;
+    color: brown; /* Altere a cor conforme desejado */
+}

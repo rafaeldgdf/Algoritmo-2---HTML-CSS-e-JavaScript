@@ -1,0 +1,436 @@
+#carrinho .produto-info .destaque-nome {
+  color: brown; /* Cor vermelha para destacar o nome do produto */
+  font-weight: bold; /* Texto em negrito */
+  -webkit-text-stroke: 1px yellow;
+  text-stroke: 1px brown;
+  
+}
+
+
+.destaque-carrinho > #quantidadeTotal,
+.destaque-carrinho > #total {
+  background-color: yellow;
+  color: red;
+}
+
+/* Estilo para a quantidade dentro do carrinho */
+#carrinho .quantidade {
+  font-weight: bold; /* Deixa o texto em negrito */
+}
+
+/* Estilo para o subtotal dentro do carrinho */
+#carrinho .subtotal {
+  color: red; /* Altera a cor do subtotal para vermelho */
+}
+
+/* Estilo para os produtos no carrinho */
+.produto {
+  margin-bottom: 20px;
+}
+
+.produto img {
+  max-width: 100px; /* Definir a largura máxima da imagem */
+  height: auto; /* Manter a proporção da imagem */
+  display: block; /* Garantir que a imagem não afete outros elementos */
+  margin: 0 auto; /* Centralizar a imagem horizontalmente */
+}
+
+.imagem-produto-carrinho {
+  max-width: 100px; /* Defina a largura máxima desejada */
+  height: 100 /* Manter a proporção da imagem */
+}
+
+.destaque {
+  font-weight: bold;
+  color: brown; /* Altere a cor conforme desejado */
+}
+
+#comentarios {
+  text-align: center; /* Centraliza todo o conteúdo */
+}
+
+.comentario {
+  margin-bottom: 20px; /* Espaçamento entre os comentários */
+}
+
+.enviar-comentario {
+  margin-top: 20px; /* Espaçamento entre os comentários e o formulário */
+}
+
+.enviar-comentario textarea {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.enviar-comentario button {
+  padding: 10px 20px;
+  background-color: #ff4500; /* Laranja */
+  color: #fff; /* Texto branco */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.enviar-comentario button:hover {
+  background-color: #d13400; /* Laranja mais escuro ao passar o mouse */
+}
+
+/* Estilo para o subtotal dentro do carrinho */
+#carrinho .produto-info p {
+  font-weight: bold; /* Deixa o texto em negrito */
+}
+
+#carrinho .destaque-subtotal {
+  color: #ff0000; /* Altera a cor do subtotal para vermelho */
+}
+
+
+
+
+.produto-single {
+  border: 10px solid #ffc107; /* Bordas amarelas */
+  padding: 10px; /* Adiciona um preenchimento interno para os produtos */
+  margin-bottom: 10px; /* Adiciona uma margem inferior para separar os produtos */
+}
+
+.produto-single .produto-texto p {
+  font-size: 20px; /* Tamanho da fonte dos parágrafos dentro do produto */
+}
+
+.produto-single .produto-texto p span.destaque {
+  font-size: 100px; /* Tamanho da fonte dos nomes dos produtos */
+  color: brown; /* Cor marrom */
+  font-family: "Arial", sans-serif; /* Fonte diferenciada */
+}
+
+
+
+.destaque-produto {
+  font-size: 24; /* Tamanho da fonte maior */
+  font-family: Arial, sans-serif; /* Fonte diferenciada */
+  color: blue; /* Cor marrom */
+  background-color: yellow; /* Fundo amarelo */
+  border: 2px solid yellow; /* Bordas amarelas */
+}
+
+.destaque-produto-carrinho {
+  font-size: 50px; /* Tamanho da fonte maior */
+  font-family: Arial, sans-serif; /* Fonte diferenciada */
+  color: brown; /* Cor marrom */
+  background-color: yellow; /* Fundo amarelo */
+  border: 4px solid yellow; /* Bordas amarelas */
+}
+
+
+#produtos .destaque-produto {
+  font-size: 30px; /* Tamanho da fonte */
+  font-weight: bold; /* Deixando o texto em negrito */
+  color: brown; /* Cor marrom */
+  font-family: Arial, sans-serif; /* Fonte diferenciada */
+  border: 4px solid yellow; /* Bordas amarelas */
+}
+
+
+/* Adicionando estilos para os destaques */
+.destaque-produto {
+  font-size: 24px; /* Tamanho da fonte maior */
+  color: brown; /* Cor marrom */
+  font-family: Arial, sans-serif; /* Fonte diferenciada */
+  border: 2px solid yellow; /* Bordas amarelas */
+}
+
+.destaque-carrinho {
+  font-size: 18px; /* Tamanho da fonte maior */
+  color: brown; /* Cor marrom */
+  font-family: Arial, sans-serif; /* Fonte diferenciada */
+  font-weight: bold;
+  
+}
+
+
+.produto-titulo {
+  font-size: 50px; /* Tamanho da fonte do título */
+  font-family: 'Arial Black', sans-serif; /* Fonte do título */
+  color: #8B4513; /* Cor do título */
+  margin-top: 10px; /* Espaçamento superior do título */
+}
+
+.preco {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.destaque-preco {
+  color: #ff0000; /* Cor vermelha */
+}
+
+
+.produto-genero {
+  text-align: center; /* Centraliza o seletor */
+  margin-top: 10px; /* Adiciona espaço acima do seletor */
+  font-weight: bold;
+}
+
+
+.produto-single {
+  border: 10px solid #b47500; /* Adiciona uma borda sólida cinza em torno de cada produto */
+  padding: 10px; /* Adiciona um preenchimento interno para os produtos */
+  margin-bottom: 10px; /* Adiciona uma margem inferior para separar os produtos */
+}
+
+.produto-single img {
+  max-width: 100%; /* Garante que as imagens não ultrapassem os limites do contêiner */
+  display: block; /* Garante que as imagens sejam exibidas como blocos */
+  margin-bottom: 10px; /* Adiciona um espaço entre a imagem e o texto do produto */
+}
+
+.produto-info p {
+  margin-bottom: 10px; /* Adiciona um espaço entre os parágrafos de informações do produto */
+}
+
+
+  .logo-container img {
+    width: 100px; /* Largura desejada da imagem */
+    height: 100px; /* Mantém a proporção da imagem */
+    margin: 0 370px;
+  }
+
+  .logo-container {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+h1 {
+    font-family: "Impact", serif;
+    -webkit-text-stroke: 1px #000;
+    -webkit-text-fill-color: #fff; 
+    font-size: 500%;
+    margin: 0
+  }
+
+.elemento-centralizado {
+    margin: 0 auto;
+    width: 50%; 
+  }
+
+.container {
+    text-align: center;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+  
+header {
+    background-color: #392222;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav {
+    background-color: #e6e617d6;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+main {
+    padding: 20px;
+}
+
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.lista-produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.produto {
+    width: 250px;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #301a1a;
+}
+
+.produto img {
+    width: 100%;
+    height: auto;
+}
+
+.produto h3 {
+    margin: 10px 0;
+}
+
+.panel {
+    background-color: yellow; /* Marrom escuro */
+  }
+
+  .logo-container img {
+    max-width: calc(50% - 12px); /* Define o tamanho máximo da imagem como metade do contêiner menos 12px de espaçamento */
+    height: auto;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container video {
+    width: 320px;
+    height: 240px;
+    margin-bottom: 20px;
+  }
+
+  #comentarios {
+    text-align: center;
+  }
+
+  #comentarios form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    margin: 0 auto;
+  }
+
+  #comentarios label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  #comentarios input, #comentarios textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+
+  #comentarios button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+  .comentario-fake {
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 80%; /* Largura do comentário fake */
+    display: flex; /* Permite que imagem e texto fiquem lado a lado */
+  }
+
+  .comentario-fake .imagem {  width: 100px; /* Largura da imagem */
+    height: 100px; /* Altura da imagem */
+    border-radius: 50%; /* Arredonda os cantos da imagem */
+    margin-right: 10px; /* Espaço entre a imagem e o texto */
+  }
+
+  .comentario-fake .nome {
+    font-weight: bold;
+  }
+
+  .comentario-fake .comentario {
+    margin-top: 5px;
+  }
+
+/* Estilo para centralizar os elementos */
+.centralizar {
+  text-align: center;
+}
+
+/* Estilo para os produtos no carrinho */
+.produto {
+  margin-bottom: 20px;
+}
+
+.produto img {
+  max-width: 100px; /* Definir a largura máxima da imagem */
+  height: auto; /* Manter a proporção da imagem */
+  display: block; /* Garantir que a imagem não afete outros elementos */
+  margin: 0 auto; /* Centralizar a imagem horizontalmente */
+}
+
+.imagem-produto-carrinho {
+  max-width: 100px; /* Defina a largura máxima desejada */
+  height: 100 /* Manter a proporção da imagem */
+}
+
+.destaque {
+  font-weight: bold;
+  color: brown; /* Altere a cor conforme desejado */
+}
+
+#comentarios {
+  text-align: center; /* Centraliza todo o conteúdo */
+}
+
+.comentario {
+  margin-bottom: 20px; /* Espaçamento entre os comentários */
+}
+
+.enviar-comentario {
+  margin-top: 20px; /* Espaçamento entre os comentários e o formulário */
+}
+
+.enviar-comentario textarea {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.enviar-comentario button {
+  padding: 10px 20px;
+  background-color: #ff4500; /* Laranja */
+  color: #fff; /* Texto branco */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.enviar-comentario button:hover {
+  background-color: #d13400; /* Laranja mais escuro ao passar o mouse */
+}

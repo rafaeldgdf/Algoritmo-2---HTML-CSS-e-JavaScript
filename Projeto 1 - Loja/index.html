@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Macaquil - Produtos</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    
+<header>
+    <div class="logo-container img">
+        <img src="img/macaco.png" alt="Logo Macaco">
+        <h1><p style="color: #fffafa;">MACAQUIL</p></h1>
+        <img src="img/cara.png" alt="Logo Cara">
+    </div>
+</header>
+  
+<nav>
+    <ul>
+        <li><a href="home.html">Início</a></li>
+        <li><a href="index.html">Loja</a></li>
+        <li><a href="contato.html">Contato</a></li>
+        <li><a href="carrinho.html">Carrinho</a></li>
+    </ul>
+</nav>
+  
+<div class="centralizar">
+    <h2>Produtos</h2>
+    <div id="produtos"></div> <!--produto-->
+    
+    <h2>Carrinho</h2>
+    <div id="carrinho"></div><!--carrinho-->
+    
+    <p id="totalProdutos" class="destaque-carrinho">Total de produtos escolhidos: <span id="quantidadeTotal">0</span></p>
+    <p id="totalValor" class="destaque-carrinho">Valor total: R$ <span id="total">0.00</span></p>
+    <button onclick="finalizarCompra()">Finalizar Compra</button>
+</div>
+
+<script src="script.js"></script>
+
+<footer>
+    <p>&copy; 2024 - Macaquil</p>
+</footer>
+</body>
+</html>
